@@ -2,15 +2,17 @@
   "name": "reveal.js",
   "version": "4.0.2",
   "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
+  "homepage": "https://developlus777.github.io/etica-",
   "subdomain": "revealjs",
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
   "license": "MIT",
+  
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp"
+    "build": "gulp",
+    "deploy" : "gh-pages -d"
   },
   "author": {
     "name": "Hakim El Hattab",
